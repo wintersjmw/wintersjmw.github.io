@@ -1,0 +1,201 @@
+header {
+	
+}
+
+body { 
+	width: 80%;
+	
+	margin-left: auto;
+	margin-right: auto;
+		
+	background-color: white;
+	font-family: Palatino,Palatino Linotype,Palatino LT STD,
+		Book Antiqua,Georgia,serif;
+}
+
+footer {
+	
+	position: relative;
+	bottom: 0;
+	
+	background-color: white;
+}
+
+a {
+	
+}
+
+h1 {
+	/** INSET THING
+	background-color: #565656;
+    color: transparent;
+    text-shadow: 0px 2px 2px rgba(255,255,255,0.75);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+	*/
+}
+
+h2 {
+	font-weight: normal;
+}
+
+hr {
+	clear: both;
+	width: 100%;
+	
+	color: white;
+	background-color: white;
+	border-color: white;
+}
+
+table {
+	width: 90%;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	background-color: #a8a8a8;
+	color: #eeeeee;
+	
+	width: 33%;
+	
+	text-align: center;
+}
+
+td {
+	background-color: #eeeeee;
+	color: black;
+	
+	width: 33%;
+
+	text-align: center;
+}
+
+hr#footerHr {
+	color: white;
+	background-color: white;
+}
+
+ul#socialMenu {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li.nav {
+	display: inline-block;
+}
+
+li.social {
+	display: inline-block;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+	/*color: rgb(0, 78, 0);*/
+	
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+#logo {
+	float: left;
+	height: 13%;
+	width: 13%;
+}
+
+#social {
+	margin: 0;
+	padding: 0;
+}
+
+#archiveTable {
+	border-style: none;   
+    border-spacing: 10px;
+}
+
+.seperateBody {
+	border-style: solid;
+	border-color: #a8a8a8;
+	border-width: 0px 0px 0px 3px;
+	
+	background-color: #eeeeee;
+	
+	padding: 3px 5px;
+	
+	height: 90%;
+	
+	text-align: justify;
+}
+
+.nav {
+	float: right;
+	
+	list-style-type: none;
+	
+	padding: 0px;
+	margin: 8% 1% 0 0;
+}
+
+.navItem {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	
+	background-color: white;
+	
+	text-decoration:none;
+	text-align: center;
+	
+	display:inline;
+	
+	padding: 3px 25px;
+	
+	box-shadow: 3px 3px 5px #8c8b8b;
+}
+
+.clearfix {
+	clear: both;
+	overflow: auto;
+}
+
+.me {
+	margin: 0% 3%;
+	padding: .25%;
+	
+	height: 16%;
+	width: 16%;
+	
+	border-style: double;
+	border-radius: 100%;
+	
+}
+
+.footerImg {
+	width: 25px;
+	height: 25px;
+	
+	display: inline-block;
+}
+
+.centered {
+	text-align: center;
+	
+	margin-left: auto;
+	margin-right: auto;
+}

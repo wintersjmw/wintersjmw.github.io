@@ -1,0 +1,342 @@
+header {
+	
+}
+
+body { 
+	width: 80%;
+	
+	margin-left: auto;
+	margin-right: auto;
+		
+	background-color: white;
+	font-family: Palatino,Palatino Linotype,Palatino LT STD,
+		Book Antiqua,Georgia,serif;
+}
+
+footer {
+	
+	position: relative;
+	bottom: 0;
+	
+	background-color: white;
+}
+
+p.indent {
+	text-indent: 3em;
+    text-align: justify;
+}
+
+h1 {
+	/** INSET THING
+	background-color: #565656;
+    color: transparent;
+    text-shadow: 0px 2px 2px rgba(255,255,255,0.75);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+	*/
+}
+
+h2 {
+    margin: .25% 0px 2% 0px;
+	font-weight: normal;
+}
+
+hr {
+	clear: both;
+	width: 100%;
+	
+	color: white;
+	background-color: white;
+	border-color: white;
+}
+
+#archive {
+	
+}
+
+table#archive {
+	width: 90%;
+	
+    border-spacing: 2px;
+    border-style: none;
+    border-spacing: 2px 0px;
+    
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th.archive {
+	background-color: #a8a8a8;
+	color: #eeeeee;
+	
+	width: 33%;
+	
+	text-align: center;
+}
+
+td.archive {
+	background-color: #eeeeee;
+	color: black;
+	
+	width: 33%;
+	
+	text-align: center;
+}
+
+table#pixelArt {
+    width: 100%;
+    background-color: white;
+}
+
+th.pixelArt {
+    
+}
+
+td.pixelArt {
+    width: 90%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+hr#footerHr {
+	color: white;
+	background-color: white;
+}
+
+ul#socialMenu {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+textarea {
+    width: 90%;
+    height: auto;
+    
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+input {
+    margin: 1% .5%;
+}
+
+li.nav {
+	display: inline-block;
+}
+
+li.social {
+	display: inline-block;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+	/*color: rgb(0, 78, 0);*/
+	
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+a.zoom:hover {
+	-webkit-transition: .25;
+	-moz-transition: .25;
+	-ms-transition: .25;
+	-o-transition: .25;
+	transition: .25;
+	font-size: 1.25em;
+}
+
+a#previous {
+    cursor: pointer;
+    
+    position: absolute;
+    top: calc(50% - 11.5px);
+    left: 0;
+
+}
+
+a#previous:hover{
+    color: #eeeeee;
+    background-color: rgba(0,0,0,.25);
+}
+
+a#next {
+    cursor: pointer;
+    
+    position: absolute;
+    top: calc(50% - 11.5px);
+    right: 0; 
+
+}
+
+a#next:hover{
+    color: #eeeeee;
+    background-color: rgba(0,0,0,.25);
+}
+
+#logo {
+	float: left;
+	height: 13%;
+	width: 13%;
+}
+
+img.pixel {
+    max-width: calc(100% - 16px);
+    height: auto;
+    
+    display: block;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-left: .5%;
+    padding-right: .5%;
+}
+
+#main {
+
+
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+#movieList {
+    width: 40%;
+    padding: 0 5px;
+    
+}
+
+p#aboutArticle {
+    flex: 4;
+}
+
+#movieList:hover {
+    background-color: rgba(255,255,255,.5);
+}
+
+#social {
+	margin: 0;
+	padding: 0 5%;
+}
+
+#logoIndex {
+	height: 50%;
+	width: 50%;
+	
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.slide {
+    
+}
+
+.seperateBody {
+	border-style: solid;
+	border-color: #a8a8a8;
+	border-width: 0px 0px 0px 3px;
+	
+	background-color: #eeeeee;
+	
+	padding: 3px 5px;
+	
+	height: 90%;
+	
+	text-align: justify;
+    
+    margin: 10px 0px;
+}
+
+div#about.seperateBody {
+    display: flex;
+    align-items: center;
+    
+    flex-direction: row-reverse;
+}
+
+.nav {
+	float: right;
+	
+	list-style-type: none;
+	
+	padding: 0px;
+	margin: 8% 1% 0 0;
+}
+
+.navItem {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	
+	background-color: white;
+	
+	text-decoration:none;
+	text-align: center;
+	
+	display:inline;
+	
+	padding: 3px 25px;
+	
+	box-shadow: 3px 3px 5px #8c8b8b;
+}
+
+.clearfix {
+	clear: both;
+	overflow: auto;
+}
+
+.me {
+	margin: 0% 3%;
+	padding: .25%;
+	
+	height: 16%;
+	width: 16%;
+	
+	border-style: double;
+	border-radius: 100%;
+    
+    flex: 1;
+    
+	
+}
+
+.footerImg {
+	width: 25px;
+	height: 25px;
+	
+	display: inline-block;
+}
+
+.centered {
+	text-align: center;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.slideShow {
+    position: relative;
+    max-width: 100%;
+    justify-content: center;
+    
+    FLEX: 1 0 auto;
+}
+

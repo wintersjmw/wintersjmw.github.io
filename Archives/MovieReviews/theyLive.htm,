@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel = "stylesheet" type = "text/CSS" href = "../../CSS/JMWStyles.css">
+		<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+		<title>Movie Name</title>
+		<meta charset="UTF-8">
+	<body>
+		<header>
+			<img id = "logo" src = "../../Images/logo.png" alt = "logo" href = "../JMW.htm"></img>		
+		</header>
+	
+		<hr>
+	
+		<p>
+		</p>
+		
+        <a href = "../index.htm"><em>Back to Movie Review Archive</em></a>
+        
+		<footer>
+			<hr id = "footerHr">
+		
+			<ul id = "socialMenu">
+				<li class = "social"><a href = "spotify:user:1256028498"><img class = "footerImg" id = "spotify" src = "../../Images/spotify.png" alt = "spotify"></a></img></li>
+				<li class = "social"><a href = "https://www.instagram.com/jake_m_winters/"><img class = "footerImg" id = "insta" src = "../../Images/insta.png" alt = "insta"></img></a></li>
+				<li class = "social"><a href = "https://www.linkedin.com/in/JacobMWinters"><img class = "footerImg" id = "linkedIn" src = "../../Images/linkedin.png" alt = "linkedIn"></img></a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
