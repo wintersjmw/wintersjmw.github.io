@@ -224,6 +224,23 @@ img.pixel {
     
 }
 
+#boxes {
+    width: 91%;
+    height: 30em;
+    display: flex;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    justify-content: space-between;
+    
+}
+
+#threeLetterCode {
+    font-size: .9em;
+    padding: 0px .5em;
+}
+
 p#aboutArticle {
     flex: 4;
 }
@@ -302,6 +319,22 @@ div#about.seperateBody {
 	clear: both;
 	overflow: auto;
 }
+
+.borderTop {
+    border-top: solid;
+    border-bottom-width: 1em;
+}
+
+.box {
+    width: 1.75em;
+    background-color: #aaaaaa;
+    
+    margin-bottom: .25em;
+
+    
+
+}
+
 
 .me {
 	margin: 0% 3%;

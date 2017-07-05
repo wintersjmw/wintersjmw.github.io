@@ -1,0 +1,175 @@
+body {
+    font-family:Palatino Linotype;
+}
+
+a:link {
+	color: rgb(237,27,36);
+}
+
+a:hover {
+	color: rgb(150, 77, 3);
+}
+
+a:visited {
+	color: rgb(3, 150, 150);
+}
+
+a.list {
+    text-align: center;
+    width: calc(100% - 10px);
+}
+
+div {
+	border-top-style: dashed;
+	border-color: black;
+	border-width: 1px;
+	
+	width: 85%;
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+	margin-top: 0px;
+	margin-bottom: 0px;	
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	
+    width: 90%;
+    
+    border-spacing: 2px 2px;
+	border-collapse: collapse;
+}
+
+td, th {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+    
+	text-align: center;
+	
+	width: 20%;
+}
+
+thead {
+	background-color: black;
+	color: white;
+}
+
+tbody tr:nth-child(even){
+	background-color: #eee;
+}
+
+img{
+	padding: 10px 10px 10px 10px;
+	
+}
+
+li {
+	width: 50%;
+	
+	margin-left: auto;
+	margin-right: 10%;
+}
+
+#imgLink, .ReturnToTOC {
+	font-size: 75%;
+	
+	width: 85%;
+	
+	display: block;
+	
+	padding-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+q {
+	display: inline-block;
+	width: 80%;
+	
+	font-size: 80%;
+	
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.picMid {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.sectionLog {
+    max-width: 90%;
+}
+
+#TOC {
+	text-align: center;
+}
+
+#TOCItem {
+	margin-left: 35px;
+	margin-right: 0%;
+	width: 100%;
+}
+
+#title {
+	display: inline-block;
+	width:100%;
+	
+	text-align: center;
+	font-style: italic;
+}
+
+#LAST {
+	display: inline-block;
+	width:10%;
+	
+	text-align: left;
+	font-style: italic;
+	color: rgb(237,27,36);
+}
+
+#NEXT{
+	display: inline-block;
+	width: 10%;
+	
+	text-align: right;
+	color: rgb(237,27,36);
+	font-style: italic;
+}
